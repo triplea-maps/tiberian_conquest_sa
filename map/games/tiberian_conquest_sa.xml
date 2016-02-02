@@ -1,0 +1,1286 @@
+<?xml version="1.0"?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+  <info name="Tiberian Conquest SA" version="1.0"/>
+  <loader javaClass="games.strategy.triplea.TripleA"/>
+  <map>
+    <!-- Territory Definitions -->
+    <territory name="W South Atlantic" water="true"/>
+    <territory name="Curitiba"/>
+    <territory name="SW South Atlantic" water="true"/>
+    <territory name="S Paraguay"/>
+    <territory name="Florianopolis"/>
+    <territory name="NW North Atlantic" water="true"/>
+    <territory name="Fortaleza"/>
+    <territory name="Belem"/>
+    <territory name="Macapa"/>
+    <territory name="S North Atlantic" water="true"/>
+    <territory name="Mid Peru"/>
+    <territory name="N Peru"/>
+    <territory name="Mid South Pacific Ocean" water="true"/>
+    <territory name="S Peru"/>
+    <territory name="N South Pacific Ocean" water="true"/>
+    <territory name="Rio de Janeiro"/>
+    <territory name="Mid Brazil4"/>
+    <territory name="Chile"/>
+    <territory name="SE Brazil"/>
+    <territory name="Vitoria"/>
+    <territory name="N Mid South Atlantic" water="true"/>
+    <territory name="NW Bolivia"/>
+    <territory name="Mid Brazil2"/>
+    <territory name="Mid Brazil3"/>
+    <territory name="NW Brazil"/>
+    <territory name="Mid Brazil"/>
+    <territory name="NE Brazil2"/>
+    <territory name="SW Brazil2"/>
+    <territory name="NE North Atlantic" water="true"/>
+    <territory name="N Brazil2"/>
+    <territory name="SE Brazil2"/>
+    <territory name="N North Atlantic" water="true"/>
+    <territory name="SE North Atlantic" water="true"/>
+    <territory name="Mid South Atlantic" water="true"/>
+    <territory name="N Paraguay"/>
+    <territory name="S Mid South Atlantic" water="true"/>
+    <territory name="SE South Atlantic" water="true"/>
+    <territory name="S South Atlantic" water="true"/>
+    <territory name="Brasilia"/>
+    <territory name="N Andes"/>
+    <territory name="Natal"/>
+    <territory name="N Brazil"/>
+    <territory name="NE Bolivia"/>
+    <territory name="Rio Branco"/>
+    <territory name="N Bolivia"/>
+    <territory name="Colombia"/>
+    <territory name="S South Pacific Ocean" water="true"/>
+    <territory name="S Brazil"/>
+    <territory name="Salvador"/>
+    <territory name="S Bolivia"/>
+    <territory name="Mid Bolivia"/>
+    <territory name="S Andes"/>
+    <territory name="E Brazil"/>
+    <territory name="Porto Velho"/>
+    <territory name="NE Brazil"/>
+    <territory name="N South Atlantic" water="true"/>
+    <territory name="E Brazil2"/>
+    <territory name="W Brazil"/>
+    <territory name="E Bolivia"/>
+    <territory name="Santarem"/>
+    <territory name="W Brazil2"/>
+    <territory name="W Brazil3"/>
+    <territory name="Macelo"/>
+    <territory name="SW Brazil"/>
+    <territory name="Argentina"/>
+    <territory name="Cuiaba"/>
+    <territory name="Manaus"/>
+    <territory name="SE Bolivia"/>
+    <territory name="SW Bolivia"/>
+    <territory name="Campo Grande"/>
+    <!-- Territory Connections -->
+    <connection t1="W South Atlantic" t2="S Mid South Atlantic"/>
+    <connection t1="W South Atlantic" t2="SE South Atlantic"/>
+    <connection t1="W South Atlantic" t2="S South Atlantic"/>
+    <connection t1="W South Atlantic" t2="SW South Atlantic"/>
+    <connection t1="Curitiba" t2="SW South Atlantic"/>
+    <connection t1="Curitiba" t2="Florianopolis"/>
+    <connection t1="Curitiba" t2="Campo Grande"/>
+    <connection t1="SW South Atlantic" t2="Florianopolis"/>
+    <connection t1="S Paraguay" t2="Florianopolis"/>
+    <connection t1="S Paraguay" t2="Argentina"/>
+    <connection t1="NW North Atlantic" t2="N North Atlantic"/>
+    <connection t1="NW North Atlantic" t2="Belem"/>
+    <connection t1="NW North Atlantic" t2="Macapa"/>
+    <connection t1="NW North Atlantic" t2="S North Atlantic"/>
+    <connection t1="Fortaleza" t2="Belem"/>
+    <connection t1="Fortaleza" t2="Natal"/>
+    <connection t1="Fortaleza" t2="NE Brazil"/>
+    <connection t1="Fortaleza" t2="Macelo"/>
+    <connection t1="Fortaleza" t2="S North Atlantic"/>
+    <connection t1="Belem" t2="Santarem"/>
+    <connection t1="Belem" t2="Macapa"/>
+    <connection t1="Belem" t2="S North Atlantic"/>
+    <connection t1="Mid Peru" t2="N Andes"/>
+    <connection t1="Mid Peru" t2="Rio Branco"/>
+    <connection t1="Mid Peru" t2="N Peru"/>
+    <connection t1="Mid Peru" t2="S Peru"/>
+    <connection t1="Mid Peru" t2="SW Bolivia"/>
+    <connection t1="N Peru" t2="W Brazil"/>
+    <connection t1="N Peru" t2="W Brazil2"/>
+    <connection t1="Mid South Pacific Ocean" t2="N South Pacific Ocean"/>
+    <connection t1="S Peru" t2="N South Pacific Ocean"/>
+    <connection t1="Rio de Janeiro" t2="Vitoria"/>
+    <connection t1="Rio de Janeiro" t2="W South Atlantic"/>
+    <connection t1="Rio de Janeiro" t2="SE Brazil2"/>
+    <connection t1="Rio de Janeiro" t2="Curitiba"/>
+    <connection t1="Rio de Janeiro" t2="S Mid South Atlantic"/>
+    <connection t1="Rio de Janeiro" t2="SW South Atlantic"/>
+    <connection t1="Mid Brazil4" t2="Mid Brazil3"/>
+    <connection t1="Mid Brazil4" t2="SW Brazil2"/>
+    <connection t1="Mid Brazil4" t2="Porto Velho"/>
+    <connection t1="Mid Brazil4" t2="W Brazil3"/>
+    <connection t1="Mid Brazil4" t2="Manaus"/>
+    <connection t1="Chile" t2="S South Pacific Ocean"/>
+    <connection t1="Chile" t2="S Andes"/>
+    <connection t1="Chile" t2="Argentina"/>
+    <connection t1="SE Brazil" t2="Vitoria"/>
+    <connection t1="SE Brazil" t2="SE Brazil2"/>
+    <connection t1="SE Brazil" t2="Brasilia"/>
+    <connection t1="SE Brazil" t2="S Brazil"/>
+    <connection t1="SE Brazil" t2="E Brazil"/>
+    <connection t1="SE Brazil" t2="Campo Grande"/>
+    <connection t1="Vitoria" t2="SE Brazil2"/>
+    <connection t1="Vitoria" t2="Mid South Atlantic"/>
+    <connection t1="Vitoria" t2="S Mid South Atlantic"/>
+    <connection t1="Vitoria" t2="E Brazil"/>
+    <connection t1="N Mid South Atlantic" t2="Mid South Atlantic"/>
+    <connection t1="N Mid South Atlantic" t2="Salvador"/>
+    <connection t1="N Mid South Atlantic" t2="N South Atlantic"/>
+    <connection t1="N Mid South Atlantic" t2="Macelo"/>
+    <connection t1="NW Bolivia" t2="SW Brazil2"/>
+    <connection t1="NW Bolivia" t2="Rio Branco"/>
+    <connection t1="NW Bolivia" t2="N Bolivia"/>
+    <connection t1="NW Bolivia" t2="Mid Bolivia"/>
+    <connection t1="NW Bolivia" t2="Porto Velho"/>
+    <connection t1="NW Bolivia" t2="SW Bolivia"/>
+    <connection t1="Mid Brazil2" t2="Mid Brazil3"/>
+    <connection t1="Mid Brazil2" t2="Mid Brazil"/>
+    <connection t1="Mid Brazil2" t2="NE Brazil2"/>
+    <connection t1="Mid Brazil2" t2="Brasilia"/>
+    <connection t1="Mid Brazil2" t2="E Brazil2"/>
+    <connection t1="Mid Brazil2" t2="Cuiaba"/>
+    <connection t1="Mid Brazil3" t2="Mid Brazil"/>
+    <connection t1="Mid Brazil3" t2="NE Brazil2"/>
+    <connection t1="Mid Brazil3" t2="SW Brazil2"/>
+    <connection t1="Mid Brazil3" t2="Santarem"/>
+    <connection t1="Mid Brazil3" t2="Manaus"/>
+    <connection t1="NW Brazil" t2="N Brazil"/>
+    <connection t1="NW Brazil" t2="Colombia"/>
+    <connection t1="NW Brazil" t2="W Brazil"/>
+    <connection t1="NW Brazil" t2="W Brazil2"/>
+    <connection t1="NW Brazil" t2="W Brazil3"/>
+    <connection t1="Mid Brazil" t2="SW Brazil2"/>
+    <connection t1="Mid Brazil" t2="N Bolivia"/>
+    <connection t1="Mid Brazil" t2="SW Brazil"/>
+    <connection t1="Mid Brazil" t2="Cuiaba"/>
+    <connection t1="NE Brazil2" t2="Fortaleza"/>
+    <connection t1="NE Brazil2" t2="Belem"/>
+    <connection t1="NE Brazil2" t2="NE Brazil"/>
+    <connection t1="NE Brazil2" t2="E Brazil2"/>
+    <connection t1="NE Brazil2" t2="Santarem"/>
+    <connection t1="SW Brazil2" t2="N Bolivia"/>
+    <connection t1="SW Brazil2" t2="Porto Velho"/>
+    <connection t1="NE North Atlantic" t2="N North Atlantic"/>
+    <connection t1="NE North Atlantic" t2="SE North Atlantic"/>
+    <connection t1="N Brazil2" t2="N Brazil"/>
+    <connection t1="N Brazil2" t2="Santarem"/>
+    <connection t1="N Brazil2" t2="Macapa"/>
+    <connection t1="N Brazil2" t2="Manaus"/>
+    <connection t1="SE Brazil2" t2="Curitiba"/>
+    <connection t1="SE Brazil2" t2="Campo Grande"/>
+    <connection t1="N North Atlantic" t2="SE North Atlantic"/>
+    <connection t1="N North Atlantic" t2="S North Atlantic"/>
+    <connection t1="SE North Atlantic" t2="Fortaleza"/>
+    <connection t1="SE North Atlantic" t2="Natal"/>
+    <connection t1="SE North Atlantic" t2="N South Atlantic"/>
+    <connection t1="SE North Atlantic" t2="S North Atlantic"/>
+    <connection t1="Mid South Atlantic" t2="S Mid South Atlantic"/>
+    <connection t1="Mid South Atlantic" t2="Salvador"/>
+    <connection t1="Mid South Atlantic" t2="E Brazil"/>
+    <connection t1="N Paraguay" t2="Curitiba"/>
+    <connection t1="N Paraguay" t2="S Paraguay"/>
+    <connection t1="N Paraguay" t2="E Bolivia"/>
+    <connection t1="N Paraguay" t2="Argentina"/>
+    <connection t1="N Paraguay" t2="SE Bolivia"/>
+    <connection t1="N Paraguay" t2="Campo Grande"/>
+    <connection t1="S Mid South Atlantic" t2="SE South Atlantic"/>
+    <connection t1="SE South Atlantic" t2="S South Atlantic"/>
+    <connection t1="S South Atlantic" t2="SW South Atlantic"/>
+    <connection t1="Brasilia" t2="S Brazil"/>
+    <connection t1="Brasilia" t2="E Brazil"/>
+    <connection t1="Brasilia" t2="E Brazil2"/>
+    <connection t1="Brasilia" t2="Cuiaba"/>
+    <connection t1="N Andes" t2="S Bolivia"/>
+    <connection t1="N Andes" t2="S Andes"/>
+    <connection t1="N Andes" t2="S Peru"/>
+    <connection t1="N Andes" t2="N South Pacific Ocean"/>
+    <connection t1="N Andes" t2="SE Bolivia"/>
+    <connection t1="N Andes" t2="SW Bolivia"/>
+    <connection t1="Natal" t2="N South Atlantic"/>
+    <connection t1="Natal" t2="Macelo"/>
+    <connection t1="N Brazil" t2="W Brazil3"/>
+    <connection t1="N Brazil" t2="Manaus"/>
+    <connection t1="NE Bolivia" t2="S Brazil"/>
+    <connection t1="NE Bolivia" t2="S Bolivia"/>
+    <connection t1="NE Bolivia" t2="Mid Bolivia"/>
+    <connection t1="NE Bolivia" t2="E Bolivia"/>
+    <connection t1="NE Bolivia" t2="SW Brazil"/>
+    <connection t1="NE Bolivia" t2="Cuiaba"/>
+    <connection t1="NE Bolivia" t2="Campo Grande"/>
+    <connection t1="Rio Branco" t2="N Peru"/>
+    <connection t1="Rio Branco" t2="Porto Velho"/>
+    <connection t1="Rio Branco" t2="W Brazil2"/>
+    <connection t1="Rio Branco" t2="SW Bolivia"/>
+    <connection t1="N Bolivia" t2="Mid Bolivia"/>
+    <connection t1="N Bolivia" t2="SW Brazil"/>
+    <connection t1="Colombia" t2="W Brazil"/>
+    <connection t1="S South Pacific Ocean" t2="S Andes"/>
+    <connection t1="S South Pacific Ocean" t2="Mid South Pacific Ocean"/>
+    <connection t1="S Brazil" t2="Cuiaba"/>
+    <connection t1="S Brazil" t2="Campo Grande"/>
+    <connection t1="Salvador" t2="E Brazil"/>
+    <connection t1="Salvador" t2="E Brazil2"/>
+    <connection t1="Salvador" t2="Macelo"/>
+    <connection t1="S Bolivia" t2="Mid Bolivia"/>
+    <connection t1="S Bolivia" t2="E Bolivia"/>
+    <connection t1="S Bolivia" t2="SE Bolivia"/>
+    <connection t1="S Bolivia" t2="SW Bolivia"/>
+    <connection t1="Mid Bolivia" t2="SW Brazil"/>
+    <connection t1="Mid Bolivia" t2="SW Bolivia"/>
+    <connection t1="S Andes" t2="Mid South Pacific Ocean"/>
+    <connection t1="S Andes" t2="N South Pacific Ocean"/>
+    <connection t1="S Andes" t2="Argentina"/>
+    <connection t1="S Andes" t2="SE Bolivia"/>
+    <connection t1="E Brazil" t2="E Brazil2"/>
+    <connection t1="Porto Velho" t2="W Brazil2"/>
+    <connection t1="Porto Velho" t2="W Brazil3"/>
+    <connection t1="NE Brazil" t2="E Brazil2"/>
+    <connection t1="NE Brazil" t2="Macelo"/>
+    <connection t1="N South Atlantic" t2="Macelo"/>
+    <connection t1="E Brazil2" t2="Macelo"/>
+    <connection t1="W Brazil" t2="W Brazil2"/>
+    <connection t1="E Bolivia" t2="SE Bolivia"/>
+    <connection t1="E Bolivia" t2="Campo Grande"/>
+    <connection t1="Santarem" t2="Macapa"/>
+    <connection t1="Santarem" t2="Manaus"/>
+    <connection t1="W Brazil2" t2="W Brazil3"/>
+    <connection t1="W Brazil3" t2="Manaus"/>
+    <connection t1="SW Brazil" t2="Cuiaba"/>
+    <connection t1="Argentina" t2="SE Bolivia"/>
+  </map>
+  <resourceList>
+    <resource name="PUs"/>
+  </resourceList>
+  <playerList>
+    <!-- In turn order -->
+    <player name="GDI" optional="false"/>
+    <player name="Nod" optional="false"/>
+    <player name="Scrin" optional="false"/>
+    <alliance player="GDI" alliance="GDI"/>
+    <alliance player="Nod" alliance="Nod"/>
+    <alliance player="Scrin" alliance="Scrin"/>
+  </playerList>
+  <unitList>
+    <unit name="infantry"/>
+    <unit name="armour"/>
+    <unit name="fighter"/>
+    <unit name="bomber"/>
+    <unit name="transport"/>
+    <unit name="battleship"/>
+    <unit name="carrier"/>
+    <unit name="factory"/>
+    <unit name="aaGun"/>
+    <unit name="artillery"/>
+    <unit name="submarine"/>
+    <unit name="destroyer"/>
+    <unit name="cruiser"/>
+    <unit name="city"/>
+    <unit name="city2"/>
+    <unit name="londoncity"/>
+    <!--<unit name="airtransport"/>
+                <unit name="airfield"/>
+                <unit name="harbour"/>
+				<unit name="heavy_aaGun"/>-->
+    <unit name="medium_infantry"/>
+    <unit name="heavy_infantry"/>
+    <unit name="special_infantry"/>
+    <unit name="light_armour"/>
+    <unit name="heavy_armour"/>
+    <unit name="special_armour"/>
+    <unit name="bunker"/>
+    <unit name="heavy_bunker"/>
+    <unit name="heavy_bomber"/>
+    <unit name="defence"/>
+    <unit name="heavy_defence"/>
+    <unit name="special_defence"/>
+    <unit name="stealth_armour"/>
+    <unit name="special_bomber"/>
+    <unit name="fortifications"/>
+  </unitList>
+  <gamePlay>
+    <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
+    <delegate name="bid" javaClass="games.strategy.triplea.delegate.BidPurchaseDelegate" display="Bid Purchase"/>
+    <delegate name="placeBid" javaClass="games.strategy.triplea.delegate.BidPlaceDelegate" display="Bid Placement"/>
+    <delegate name="tech" javaClass="games.strategy.triplea.delegate.TechnologyDelegate" display="Research Technology"/>
+    <delegate name="tech_Activation" javaClass="games.strategy.triplea.delegate.TechActivationDelegate" display="Activate Technology"/>
+    <delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units"/>
+    <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
+    <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat"/>
+    <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units"/>
+    <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
+    <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
+    <sequence>
+      <step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1"/>
+      <step name="gdiBid" delegate="bid" player="GDI" maxRunCount="1"/>
+      <step name="gdiBidPlace" delegate="placeBid" player="GDI" maxRunCount="1"/>
+      <step name="nodBid" delegate="bid" player="Nod" maxRunCount="1"/>
+      <step name="nodBidPlace" delegate="placeBid" player="Nod" maxRunCount="1"/>
+      <step name="scrinBid" delegate="bid" player="Scrin" maxRunCount="1"/>
+      <step name="scrinBidPlace" delegate="placeBid" player="Scrin" maxRunCount="1"/>
+      <!--<step name="gdiTech" delegate="tech" player="GDI"/>
+                        <step name="gdiTechActivation" delegate="tech_Activation" player="GDI"/>-->
+      <step name="gdiPurchase" delegate="purchase" player="GDI"/>
+      <step name="gdiCombatMove" delegate="move" player="GDI"/>
+      <step name="gdiBattle" delegate="battle" player="GDI"/>
+      <step name="gdiNonCombatMove" delegate="move" player="GDI" display="Non Combat Move"/>
+      <step name="gdiPlace" delegate="place" player="GDI"/>
+      <step name="gdiEndTurn" delegate="endTurn" player="GDI"/>
+      <!--<step name="nodTech" delegate="tech" player="Nod"/>
+                        <step name="nodTechActivation" delegate="tech_Activation" player="Nod"/>-->
+      <step name="nodPurchase" delegate="purchase" player="Nod"/>
+      <step name="nodCombatMove" delegate="move" player="Nod"/>
+      <step name="nodBattle" delegate="battle" player="Nod"/>
+      <step name="nodNonCombatMove" delegate="move" player="Nod" display="Non Combat Move"/>
+      <step name="nodPlace" delegate="place" player="Nod"/>
+      <step name="nodEndTurn" delegate="endTurn" player="Nod"/>
+      <!--<step name="scrinTech" delegate="tech" player="Scrin"/>
+                        <step name="scrinTechActivation" delegate="tech_Activation" player="Scrin"/>-->
+      <step name="scrinPurchase" delegate="purchase" player="Scrin"/>
+      <step name="scrinCombatMove" delegate="move" player="Scrin"/>
+      <step name="scrinBattle" delegate="battle" player="Scrin"/>
+      <step name="scrinNonCombatMove" delegate="move" player="Scrin" display="Non Combat Move"/>
+      <step name="scrinPlace" delegate="place" player="Scrin"/>
+      <step name="scrinEndTurn" delegate="endTurn" player="Scrin"/>
+      <step name="endRoundStep" delegate="endRound"/>
+    </sequence>
+  </gamePlay>
+  <production>
+    <!-- Unit Production Cost -->
+    <productionRule name="buyinfantry">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="infantry" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyarmour">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="armour" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyfighter">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="fighter" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybomber">
+      <cost resource="PUs" quantity="12"/>
+      <result resourceOrUnit="bomber" quantity="1"/>
+    </productionRule>
+    <productionRule name="buytransport">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="transport" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybattleship">
+      <cost resource="PUs" quantity="20"/>
+      <result resourceOrUnit="battleship" quantity="1"/>
+    </productionRule>
+    <productionRule name="buycarrier">
+      <cost resource="PUs" quantity="14"/>
+      <result resourceOrUnit="carrier" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyfactory">
+      <cost resource="PUs" quantity="15"/>
+      <result resourceOrUnit="factory" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyaaGun">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="aaGun" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyartillery">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="artillery" quantity="1"/>
+    </productionRule>
+    <productionRule name="buysubmarine">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="submarine" quantity="1"/>
+    </productionRule>
+    <productionRule name="buydestroyer">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="destroyer" quantity="1"/>
+    </productionRule>
+    <productionRule name="buycruiser">
+      <cost resource="PUs" quantity="12"/>
+      <result resourceOrUnit="cruiser" quantity="1"/>
+    </productionRule>
+    <!--<productionRule name="buyairtransport">
+                        <cost resource="PUs" quantity="11"/>
+                        <result resourceOrUnit="airtransport" quantity="1"/>
+                </productionRule>
+                <productionRule name="buyairfield">
+                        <cost resource="PUs" quantity="15"/>
+                        <result resourceOrUnit="airfield" quantity="1"/>
+                </productionRule>
+                <productionRule name="buyharbour">
+                        <cost resource="PUs" quantity="15"/>
+                        <result resourceOrUnit="harbour" quantity="1"/>
+                </productionRule>
+				<productionRule name="buyheavy_aaGun">
+                        <cost resource="PUs" quantity="10"/>
+                        <result resourceOrUnit="heavy_aaGun" quantity="1"/>
+                </productionRule>-->
+    <productionRule name="buymedium_infantry">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="medium_infantry" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyheavy_infantry">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="heavy_infantry" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyspecial_infantry">
+      <cost resource="PUs" quantity="11"/>
+      <result resourceOrUnit="special_infantry" quantity="1"/>
+    </productionRule>
+    <productionRule name="buylight_armour">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="light_armour" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyheavy_armour">
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="heavy_armour" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyspecial_armour">
+      <cost resource="PUs" quantity="13"/>
+      <result resourceOrUnit="special_armour" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybunker">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="bunker" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyheavy_bunker">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="heavy_bunker" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyheavy_bomber">
+      <cost resource="PUs" quantity="16"/>
+      <result resourceOrUnit="heavy_bomber" quantity="1"/>
+    </productionRule>
+    <productionRule name="buydefence">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="defence" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyheavy_defence">
+      <cost resource="PUs" quantity="14"/>
+      <result resourceOrUnit="heavy_defence" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyspecial_defence">
+      <cost resource="PUs" quantity="20"/>
+      <result resourceOrUnit="special_defence" quantity="1"/>
+    </productionRule>
+    <productionRule name="buystealth_armour">
+      <cost resource="PUs" quantity="12"/>
+      <result resourceOrUnit="stealth_armour" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyspecial_bomber">
+      <cost resource="PUs" quantity="22"/>
+      <result resourceOrUnit="special_bomber" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyfortifications">
+      <cost resource="PUs" quantity="9"/>
+      <result resourceOrUnit="fortifications" quantity="1"/>
+    </productionRule>
+    <productionFrontier name="GDIFrontier">
+      <frontierRules name="buyinfantry"/>
+      <frontierRules name="buyarmour"/>
+      <frontierRules name="buyfighter"/>
+      <frontierRules name="buybomber"/>
+      <frontierRules name="buytransport"/>
+      <frontierRules name="buybattleship"/>
+      <frontierRules name="buycarrier"/>
+      <frontierRules name="buyfactory"/>
+      <frontierRules name="buyaaGun"/>
+      <frontierRules name="buyartillery"/>
+      <frontierRules name="buyspecial_defence"/>
+      <frontierRules name="buysubmarine"/>
+      <frontierRules name="buycruiser"/>
+      <frontierRules name="buydestroyer"/>
+      <!--<frontierRules name="buyairtransport"/>
+                        <frontierRules name="buyairfield"/>
+                        <frontierRules name="buyharbour"/>-->
+      <frontierRules name="buymedium_infantry"/>
+      <frontierRules name="buyheavy_infantry"/>
+      <frontierRules name="buyspecial_infantry"/>
+      <frontierRules name="buylight_armour"/>
+      <frontierRules name="buyheavy_armour"/>
+      <frontierRules name="buyspecial_armour"/>
+      <frontierRules name="buybunker"/>
+      <frontierRules name="buyheavy_bomber"/>
+      <frontierRules name="buydefence"/>
+      <frontierRules name="buyheavy_defence"/>
+    </productionFrontier>
+    <productionFrontier name="NodFrontier">
+      <frontierRules name="buyinfantry"/>
+      <frontierRules name="buyarmour"/>
+      <frontierRules name="buyfighter"/>
+      <frontierRules name="buybomber"/>
+      <frontierRules name="buytransport"/>
+      <frontierRules name="buyfactory"/>
+      <frontierRules name="buyaaGun"/>
+      <frontierRules name="buyartillery"/>
+      <frontierRules name="buysubmarine"/>
+      <frontierRules name="buycarrier"/>
+      <frontierRules name="buydestroyer"/>
+      <!--<frontierRules name="buyairtransport"/>
+                        <frontierRules name="buyairfield"/>
+                        <frontierRules name="buyharbour"/>-->
+      <frontierRules name="buymedium_infantry"/>
+      <frontierRules name="buyheavy_infantry"/>
+      <frontierRules name="buyspecial_infantry"/>
+      <frontierRules name="buylight_armour"/>
+      <frontierRules name="buyheavy_armour"/>
+      <frontierRules name="buyspecial_armour"/>
+      <frontierRules name="buybunker"/>
+      <frontierRules name="buyheavy_bunker"/>
+      <frontierRules name="buyheavy_bomber"/>
+      <frontierRules name="buydefence"/>
+      <frontierRules name="buyheavy_defence"/>
+      <frontierRules name="buyspecial_defence"/>
+      <frontierRules name="buystealth_armour"/>
+    </productionFrontier>
+    <productionFrontier name="ScrinFrontier">
+      <frontierRules name="buyinfantry"/>
+      <frontierRules name="buyarmour"/>
+      <frontierRules name="buyfighter"/>
+      <frontierRules name="buybomber"/>
+      <frontierRules name="buytransport"/>
+      <frontierRules name="buyfactory"/>
+      <frontierRules name="buyaaGun"/>
+      <frontierRules name="buyartillery"/>
+      <frontierRules name="buysubmarine"/>
+      <frontierRules name="buycruiser"/>
+      <frontierRules name="buydestroyer"/>
+      <!--<frontierRules name="buyairfield"/>
+						<frontierRules name="buyharbour"/>-->
+      <!--<frontierRules name="buyheavy_aaGun"/>-->
+      <frontierRules name="buymedium_infantry"/>
+      <frontierRules name="buyheavy_infantry"/>
+      <frontierRules name="buyspecial_infantry"/>
+      <frontierRules name="buylight_armour"/>
+      <frontierRules name="buyheavy_armour"/>
+      <frontierRules name="buyspecial_armour"/>
+      <frontierRules name="buybunker"/>
+      <frontierRules name="buyheavy_bomber"/>
+      <frontierRules name="buydefence"/>
+      <frontierRules name="buyheavy_defence"/>
+      <frontierRules name="buyspecial_defence"/>
+      <frontierRules name="buyspecial_bomber"/>
+      <frontierRules name="buyfortifications"/>
+    </productionFrontier>
+    <playerProduction player="GDI" frontier="GDIFrontier"/>
+    <playerProduction player="Nod" frontier="NodFrontier"/>
+    <playerProduction player="Scrin" frontier="ScrinFrontier"/>
+  </production>
+  <attatchmentList>
+    <attatchment name="unitAttatchment" attatchTo="infantry" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+      <option name="transportCost" value="2"/>
+      <option name="artillerySupportable" value="true"/>
+      <option name="isInfantry" value="true"/>
+      <option name="isParatroop" value="false"/>
+      <option name="isMechanized" value="false"/>
+      <option name="artillerySupportable" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="medium_infantry" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="3"/>
+      <option name="transportCost" value="2"/>
+      <option name="artillerySupportable" value="true"/>
+      <option name="isInfantry" value="true"/>
+      <option name="isParatroop" value="false"/>
+      <option name="isMechanized" value="false"/>
+      <option name="artillerySupportable" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="heavy_infantry" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="4"/>
+      <option name="transportCost" value="2"/>
+      <option name="artillerySupportable" value="true"/>
+      <option name="isInfantry" value="true"/>
+      <option name="isParatroop" value="false"/>
+      <option name="isMechanized" value="false"/>
+      <option name="artillerySupportable" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="special_infantry" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="5"/>
+      <option name="transportCost" value="2"/>
+      <option name="artillerySupportable" value="true"/>
+      <option name="isInfantry" value="true"/>
+      <option name="isParatroop" value="false"/>
+      <option name="isMechanized" value="false"/>
+      <option name="artillerySupportable" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="light_armour" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="2"/>
+      <option name="transportCost" value="2"/>
+      <option name="canBlitz" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="armour" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="3"/>
+      <option name="transportCost" value="3"/>
+      <option name="canBlitz" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="heavy_armour" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="4"/>
+      <option name="transportCost" value="4"/>
+      <option name="canBlitz" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="stealth_armour" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="3"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="5"/>
+      <option name="transportCost" value="4"/>
+      <option name="canBlitz" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="special_armour" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="5"/>
+      <option name="defense" value="5"/>
+      <option name="transportCost" value="5"/>
+      <option name="canBlitz" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="fighter" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="4"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="4"/>
+      <option name="carrierCost" value="1"/>
+      <option name="isAir" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="bomber" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="6"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="1"/>
+      <option name="isStrategicBomber" value="true"/>
+      <option name="isAir" value="true"/>
+      <option name="transportCapacity" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="heavy_bomber" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="6"/>
+      <option name="attack" value="8"/>
+      <option name="defense" value="2"/>
+      <option name="isStrategicBomber" value="true"/>
+      <option name="isAir" value="true"/>
+      <option name="transportCapacity" value="3"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="special_bomber" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="14"/>
+      <option name="defense" value="2"/>
+      <option name="isStrategicBomber" value="true"/>
+      <option name="isAir" value="true"/>
+      <option name="transportCapacity" value="4"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="transport" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="0"/>
+      <option name="transportCapacity" value="5"/>
+      <option name="isSea" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="battleship" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="4"/>
+      <option name="canBombard" value="true"/>
+      <option name="isSea" value="true"/>
+      <option name="isTwoHit" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="carrier" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="carrierCapacity" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="factory" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="isFactory" value="true"/>
+    </attatchment>
+    <!--<attatchment name="unitAttatchment" attatchTo="airfield" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+                         <option name="isInfrastructure" value="true"/>
+						 <option name="canBeDamaged" value="true"/>
+						 <option name="maxDamage" value="6"/>
+						 <option name="maxOperationalDamage" value="3"/>
+						 <option name="isAirBase" value="true"/>
+						 <option name="isConstruction" value="true"/>
+						 <option name="constructionType" value="airfield"/>
+						 <option name="constructionsPerTerrPerTypePerTurn" value="1"/>
+						 <option name="maxConstructionsPerTypePerTerr" value="1"/>
+                </attatchment>
+                <attatchment name="unitAttatchment" attatchTo="harbour" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+                         <option name="isInfrastructure" value="true"/>
+						 <option name="canBeDamaged" value="true"/>
+						 <option name="maxDamage" value="6"/>
+						 <option name="maxOperationalDamage" value="3"/>
+						 <option name="isConstruction" value="true"/>
+						 <option name="constructionType" value="harbour"/>
+						 <option name="constructionsPerTerrPerTypePerTurn" value="1"/>
+						 <option name="maxConstructionsPerTypePerTerr" value="1"/>
+                </attatchment>
+				<attatchment name="unitAttatchment" attatchTo="heavy_aaGun" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+                         <option name="isAA" value="true"/>
+                         <option name="transportCost" value="3"/>
+                         <option name="movement" value="0"/>
+						 <option name="defense" value="2"/>
+                    </attatchment>
+					<attatchment name="unitAttatchment" attatchTo="airtransport" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+                         <option name="movement" value="4"/>
+                         <option name="isAir" value="true"/>
+                         <option name="attack" value="0"/>
+                         <option name="defense" value="0"/>
+                         <option name="transportCapacity" value="6"/>
+                         <option name="isAirTransport" value="true"/>
+                    </attatchment>-->
+    <attatchment name="unitAttatchment" attatchTo="aaGun" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="isAA" value="true"/>
+      <option name="transportCost" value="3"/>
+      <option name="movement" value="0"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="bunker" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="0"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="4"/>
+      <!--<option name="isCombatInfrastructure" value="true"/>
+						 <option name="canBeDamaged" value="true"/>
+						 <option name="maxDamage" value="3"/>
+						 <option name="maxOperationalDamage" value="0"/>
+						 <option name="isConstruction" value="true"/>
+						 <option name="constructionType" value="bunker"/>
+						 <option name="maxConstructionsPerTypePerTerr" value="3"/>
+						 <option name="constructionsPerTerrPerTypePerTurn" value="3"/>-->
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="heavy_bunker" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="0"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="7"/>
+      <!--<option name="isCombatInfrastructure" value="true"/>
+						  <option name="canBeDamaged" value="true"/>
+						 <option name="maxDamage" value="5"/>
+						 <option name="maxOperationalDamage" value="0"/>
+						 <option name="isConstruction" value="true"/>
+						 <option name="constructionType" value="bunker"/>
+						 <option name="maxConstructionsPerTypePerTerr" value="3"/>
+						 <option name="constructionsPerTerrPerTypePerTurn" value="3"/>-->
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="fortifications" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="0"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="8"/>
+      <!--<option name="isCombatInfrastructure" value="true"/>
+						 <option name="canBeDamaged" value="true"/>
+						 <option name="maxDamage" value="6"/>
+						 <option name="maxOperationalDamage" value="0"/>
+						 <option name="isConstruction" value="true"/>
+						 <option name="constructionType" value="basedefence"/>
+						 <option name="maxConstructionsPerTypePerTerr" value="3"/>
+						 <option name="constructionsPerTerrPerTypePerTurn" value="3"/>-->
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="city" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="0"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="3"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="city2" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="0"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="6"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="londoncity" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="0"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="9"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="defence" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="0"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="4"/>
+      <!--<option name="isCombatInfrastructure" value="true"/>
+						 <option name="canBeDamaged" value="true"/>
+						 <option name="maxDamage" value="3"/>
+						 <option name="maxOperationalDamage" value="0"/>
+						 <option name="isConstruction" value="true"/>
+						 <option name="constructionType" value="basedefence"/>
+						 <option name="maxConstructionsPerTypePerTerr" value="3"/>
+						 <option name="constructionsPerTerrPerTypePerTurn" value="3"/>-->
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="heavy_defence" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="0"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="6"/>
+      <!--<option name="isCombatInfrastructure" value="true"/>
+						 <option name="canBeDamaged" value="true"/>
+						 <option name="maxDamage" value="5"/>
+						 <option name="maxOperationalDamage" value="0"/>
+						 <option name="isConstruction" value="true"/>
+						 <option name="constructionType" value="basedefence"/>
+						 <option name="maxConstructionsPerTypePerTerr" value="3"/>
+						 <option name="constructionsPerTerrPerTypePerTurn" value="3"/>-->
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="special_defence" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="0"/>
+      <option name="attack" value="6"/>
+      <option name="defense" value="8"/>
+      <!--<option name="isCombatInfrastructure" value="true"/>
+						  <option name="canBeDamaged" value="true"/>
+						 <option name="maxDamage" value="7"/>
+						 <option name="maxOperationalDamage" value="0"/>
+						 <option name="isConstruction" value="true"/>
+						 <option name="constructionType" value="basedefence"/>
+						 <option name="maxConstructionsPerTypePerTerr" value="3"/>
+						 <option name="constructionsPerTerrPerTypePerTurn" value="3"/>-->
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="artillery" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+      <option name="transportCost" value="3"/>
+      <option name="artillery" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="submarine" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="1"/>
+      <option name="isSea" value="true"/>
+      <option name="isSub" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="destroyer" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="isDestroyer" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="cruiser" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="3"/>
+      <option name="canBombard" value="true"/>
+      <option name="isSea" value="true"/>
+      <option name="isTwoHit" value="false"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="W South Atlantic" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Curitiba" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="SW South Atlantic" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S Paraguay" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Florianopolis" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="capital" value="GDI"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="NW North Atlantic" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Fortaleza" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Belem" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="capital" value="Nod"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Macapa" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S North Atlantic" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Mid Peru" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N Peru" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="capital" value="Scrin"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Mid South Pacific Ocean" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S Peru" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N South Pacific Ocean" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Rio de Janeiro" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Mid Brazil4" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Chile" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="SE Brazil" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Vitoria" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N Mid South Atlantic" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="NW Bolivia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Mid Brazil2" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Mid Brazil3" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="NW Brazil" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Mid Brazil" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="NE Brazil2" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="SW Brazil2" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="NE North Atlantic" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N Brazil2" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="SE Brazil2" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N North Atlantic" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="SE North Atlantic" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Mid South Atlantic" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N Paraguay" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S Mid South Atlantic" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="SE South Atlantic" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S South Atlantic" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Brasilia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N Andes" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Natal" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N Brazil" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="NE Bolivia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Rio Branco" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N Bolivia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Colombia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S South Pacific Ocean" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S Brazil" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Salvador" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S Bolivia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Mid Bolivia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S Andes" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="isImpassible" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="E Brazil" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Porto Velho" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="NE Brazil" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N South Atlantic" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="E Brazil2" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="W Brazil" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="E Bolivia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Santarem" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="W Brazil2" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="W Brazil3" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Macelo" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="SW Brazil" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Argentina" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Cuiaba" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Manaus" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="SE Bolivia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="SW Bolivia" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Campo Grande" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+  </attatchmentList>
+  <initialize>
+    <ownerInitialize>
+      <territoryOwner territory="W South Atlantic" owner="GDI"/>
+      <territoryOwner territory="Curitiba" owner="GDI"/>
+      <territoryOwner territory="SW South Atlantic" owner="GDI"/>
+      <territoryOwner territory="S Paraguay" owner="GDI"/>
+      <territoryOwner territory="Florianopolis" owner="GDI"/>
+      <territoryOwner territory="NW North Atlantic" owner="Nod"/>
+      <territoryOwner territory="Fortaleza" owner="Nod"/>
+      <territoryOwner territory="Belem" owner="Nod"/>
+      <territoryOwner territory="Macapa" owner="Nod"/>
+      <territoryOwner territory="S North Atlantic" owner="Nod"/>
+      <territoryOwner territory="Mid Peru" owner="Scrin"/>
+      <territoryOwner territory="N Peru" owner="Scrin"/>
+      <territoryOwner territory="Mid South Pacific Ocean" owner="Scrin"/>
+      <territoryOwner territory="S Peru" owner="Scrin"/>
+      <territoryOwner territory="N South Pacific Ocean" owner="Scrin"/>
+    </ownerInitialize>
+    <unitInitialize>
+      <unitPlacement unitType="infantry" territory="Curitiba" quantity="2" owner="GDI"/>
+      <unitPlacement unitType="infantry" territory="S Paraguay" quantity="2" owner="GDI"/>
+      <unitPlacement unitType="infantry" territory="Florianopolis" quantity="2" owner="GDI"/>
+      <unitPlacement unitType="armour" territory="Florianopolis" quantity="2" owner="GDI"/>
+      <unitPlacement unitType="factory" territory="Florianopolis" quantity="1" owner="GDI"/>
+      <unitPlacement unitType="infantry" territory="Fortaleza" quantity="2" owner="Nod"/>
+      <unitPlacement unitType="infantry" territory="Belem" quantity="2" owner="Nod"/>
+      <unitPlacement unitType="armour" territory="Belem" quantity="2" owner="Nod"/>
+      <unitPlacement unitType="factory" territory="Belem" quantity="1" owner="Nod"/>
+      <unitPlacement unitType="infantry" territory="Macapa" quantity="2" owner="Nod"/>
+      <unitPlacement unitType="infantry" territory="Mid Peru" quantity="2" owner="Scrin"/>
+      <unitPlacement unitType="infantry" territory="N Peru" quantity="2" owner="Scrin"/>
+      <unitPlacement unitType="armour" territory="N Peru" quantity="2" owner="Scrin"/>
+      <unitPlacement unitType="factory" territory="N Peru" quantity="1" owner="Scrin"/>
+      <unitPlacement unitType="infantry" territory="S Peru" quantity="2" owner="Scrin"/>
+    </unitInitialize>
+    <resourceInitialize>
+      <resourceGiven player="GDI" resource="PUs" quantity="25"/>
+      <resourceGiven player="Nod" resource="PUs" quantity="25"/>
+      <resourceGiven player="Scrin" resource="PUs" quantity="25"/>
+    </resourceInitialize>
+  </initialize>
+  <propertyList>
+    <property name="Honorable Surrender" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Low Luck" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Tech Development" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="LHTR Heavy Bombers" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Heavy Bomber Dice Rolls" value="2" editable="true">
+      <number min="2" max="3"/>
+    </property>
+    <property name="Always on AA" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Kamikaze Airplanes" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Battleships repair at end of round" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Display Sea Names" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="WW2V3" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="WW2V3 Tech Model" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Use Shipyards" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="All Rockets Attack" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Rockets Can Fly Over Impassables" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Blitz Through Factories And AA Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Roll AA Individually" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Choose AA Casualties" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="AA Territory Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Multiple AA Per Territory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Partial Amphibious Retreat" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Shore Bombard Per Ground Unit Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Naval Bombard Casualties Return Fire Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Hari-Kari Units" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Allied Air Dependents" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Surviving Air Move To Land" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Air Attack Sub Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Ignore Transport In Movement" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Transport Casualties Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unescorted Transport Dies" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Ignore Sub In Movement" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Defending Subs Sneak Attack" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Sub Retreat Before Battle" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Submersible Subs" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Sub Control Sea Zone Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Previous Units Fight" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Two hit battleship" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Produce fighters on carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Produce new fighters on old carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Move existing fighters to new carriers" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Land existing fighters on new carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unit Placement In Enemy Seas" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Territory Turn Limit" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="maxFactoriesPerTerritory" value="1" editable="false"/>
+    <property name="Placement Restricted By Factory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="SBR Affects Unit Production" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="neutralCharge" value="0" editable="false"/>
+    <property name="Neutrals Are Impassable" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Neutrals Are Blitzable" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="GDI bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Nod bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Scrin bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="mapName" value="tiberian_conquest_sa" editable="false"/>
+    <property name="notes">
+      <value><![CDATA[Tiberian Conquest mod for TripleA, the South American war theatre, by Fei. Assets based off unit cameos from C&C3 developped by EALA. Many thanks to Wisconsin and Veqryn for support on the official TripleA forums!]]></value>
+    </property>
+  </propertyList>
+</game>
