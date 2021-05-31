@@ -1,0 +1,3 @@
+map_name: tiberian_conquest_sa
+games:
+- {game_name: Tiberian Conquest SA, file_name: tiberian_conquest_sa.xml}
